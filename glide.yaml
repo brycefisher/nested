@@ -1,0 +1,9 @@
+package: github.com/brycefisher/nesting
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v0.9.3rc4
+  subpackages:
+  - aws
+  - service/s3
+- package: github.com/brycefisher/glide-nested-dependency
+  version: master
